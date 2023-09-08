@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="All Test Suite">
+
+    <test name="All Tests from package tests">
+        <packages>
+            <package name="pl.restassured.tests.pet"></package>
+            <package name="pl.restassured.tests.user"></package>
+        </packages>
+    </test>
+</suite>
